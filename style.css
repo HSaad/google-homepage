@@ -7,18 +7,25 @@
 	grid-area: "nav"
 				"logo"
 				"footer";
-	grid-template-rows: 1fr 11fr 1fr;
+	grid-template-rows: 1fr 14fr 1fr;
 }
 
 /*Navigation bar */
 .nav{
 	text-align: right;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 0.80em;
-	margin-top: 15px;
+	font-size: 13px;
+	margin-top: 25px;
 	margin-right: 25px;
 }
-
+/*TODO (nav bar)
+remove underline and purple/blue color
+Make sign in blue button with whit font
+Add square image
+Add margin between words/links
+Maybe increase font size
+Add links to html gmail, images, sign in, img
+*/
 
 /*Google logo and Search Bar */
 .logo{
@@ -26,7 +33,7 @@
 }
 
 .logo img{
-	margin-top: 11.5%;
+	margin-top: 12%;
 	margin-bottom: 20px;
 }
 
@@ -38,14 +45,13 @@
 	-webkit-box-shadow:0px 4px 6px -6px #616a6b;
  	-moz-box-shadow:0px 4px 6px -6px #616a6b;
 	box-shadow: 0px 4px 6px -6px #616a6b;
-	/*want a more subtle shadow*/
 
 }
 
 input[type=text]{
-	margin-top: 25px;
 	height: 40px;
 	width: 570px;
+	padding-left:15px;
 	border-radius: 0;
 	border: 1px solid #e5e7e9;
 	border-bottom: 1px solid #d1d1d1;
@@ -58,91 +64,46 @@ input[type=submit]{
 
 	border-radius: 0;
 	border-style: none;
-
-	/* want font bold and smaller and grey, so button can be smaller 
-	font-style: bold;
-	
 }
+
+
+/*TODO
+Make font in submit input fields bold
+Make submit font smaller size (arial, helvetica, sans-serif)
+Change font color in submit to gray
+Makesubmit button size smaller
+Make a more subtle shadow around search box
+Make search box a little bigger 
+Submit:hover change action when mouse hovers
+Add links to html buttons
+*/
+	
 
 /*Footer*/
-.footer{
-	background-color: #d1d1d1;
-}
-
-/*try inline block for foot1 foot2, then justify content */
-
-
-
-
-/*
-.container{
-	width: auto;
-	height: 800px;
-	display: grid;
-	grid-area: "nav"
-				"logo"
-				"footer";		
-}
-
-.nav{
-	width: 100%;
-	height: 20px;
-	display: block; 
-	position: fixed;
-	z-index: 10;
-	text-align: right;
-	background-color: red;
-}
-
-.nav a{
-	margin-top: 0;
-	border: 1px solid black;
-	margin-bottom: 50%;
-}
-
-.logo{
-	width: 100%;
-}
-
-img{
-	margin-top: 15%;
-}
-
-.search{
-	margin-left: 28%;
-	margin-bottom: 30px;
-	width: 570px;
-
-	-webkit-box-shadow:0px 4px 6px -6px #616a6b;
- 	-moz-box-shadow:0px 4px 6px -6px #616a6b;
-	box-shadow: 0px 4px 6px -6px #616a6b;
-	/*want a more subtle shadow*/
-
-}
-/*
-input[type=text]{
-	margin-top: 25px;
-	height: 40px;
-	width: 570px;
-	border-radius: 0;
-	border: 1px solid #e5e7e9;
-	border-bottom: 1px solid #d1d1d1;
-}
-
-input[type=submit]{
-	height: 40px;
-	width: 130px;
-	display: inline-block;
-
-	border-radius: 0;
-	border-style: none;
-
-	/* want font bold and smaller and grey, so button can be smaller 
-	font-style: bold;
-	
-}
-
 footer{
-	background-color: black;
+	background-color: #d1d1d1;
+	display: block;
+	font-size: 13px;
+	font-family: Arial, Helvetica, sans-serif;
 }
+
+.foot1{
+	width: 48%;
+	display: inline-block;
+	margin-top: 13px;
+	margin-left: 22px;
+}
+
+.foot2{
+	width: 48%;
+	margin-top: 13px;
+	display: inline-block;
+	text-align: right;
+}
+
+/*TODO
+Make Background color lighter
+Make font color dark gray (not black)
+Add links to ads, business, about, privacy, terms, settings
+Top border darker gray slightly
 */
