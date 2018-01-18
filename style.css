@@ -1,0 +1,148 @@
+
+.container{
+	width: auto;
+	height: 675px; /* change size to size of browser screen*/
+	position: relative;
+	display: grid;
+	grid-area: "nav"
+				"logo"
+				"footer";
+	grid-template-rows: 1fr 11fr 1fr;
+}
+
+/*Navigation bar */
+.nav{
+	text-align: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.80em;
+	margin-top: 15px;
+	margin-right: 25px;
+}
+
+
+/*Google logo and Search Bar */
+.logo{
+	text-align: center;
+}
+
+.logo img{
+	margin-top: 11.5%;
+	margin-bottom: 20px;
+}
+
+.search{
+	margin-left: 28%;
+	margin-bottom: 30px;
+	width: 570px;
+
+	-webkit-box-shadow:0px 4px 6px -6px #616a6b;
+ 	-moz-box-shadow:0px 4px 6px -6px #616a6b;
+	box-shadow: 0px 4px 6px -6px #616a6b;
+	/*want a more subtle shadow*/
+
+}
+
+input[type=text]{
+	margin-top: 25px;
+	height: 40px;
+	width: 570px;
+	border-radius: 0;
+	border: 1px solid #e5e7e9;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+input[type=submit]{
+	height: 40px;
+	width: 130px;
+	display: inline-block;
+
+	border-radius: 0;
+	border-style: none;
+
+	/* want font bold and smaller and grey, so button can be smaller 
+	font-style: bold;
+	
+}
+
+/*Footer*/
+.footer{
+	background-color: #d1d1d1;
+}
+
+/*try inline block for foot1 foot2, then justify content */
+
+
+
+
+/*
+.container{
+	width: auto;
+	height: 800px;
+	display: grid;
+	grid-area: "nav"
+				"logo"
+				"footer";		
+}
+
+.nav{
+	width: 100%;
+	height: 20px;
+	display: block; 
+	position: fixed;
+	z-index: 10;
+	text-align: right;
+	background-color: red;
+}
+
+.nav a{
+	margin-top: 0;
+	border: 1px solid black;
+	margin-bottom: 50%;
+}
+
+.logo{
+	width: 100%;
+}
+
+img{
+	margin-top: 15%;
+}
+
+.search{
+	margin-left: 28%;
+	margin-bottom: 30px;
+	width: 570px;
+
+	-webkit-box-shadow:0px 4px 6px -6px #616a6b;
+ 	-moz-box-shadow:0px 4px 6px -6px #616a6b;
+	box-shadow: 0px 4px 6px -6px #616a6b;
+	/*want a more subtle shadow*/
+
+}
+/*
+input[type=text]{
+	margin-top: 25px;
+	height: 40px;
+	width: 570px;
+	border-radius: 0;
+	border: 1px solid #e5e7e9;
+	border-bottom: 1px solid #d1d1d1;
+}
+
+input[type=submit]{
+	height: 40px;
+	width: 130px;
+	display: inline-block;
+
+	border-radius: 0;
+	border-style: none;
+
+	/* want font bold and smaller and grey, so button can be smaller 
+	font-style: bold;
+	
+}
+
+footer{
+	background-color: black;
+}
+*/
